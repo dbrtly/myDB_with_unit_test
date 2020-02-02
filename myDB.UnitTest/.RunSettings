@@ -1,0 +1,6 @@
+<RunSettings>
+    <TestRunParameters> 
+        <Parameter name="TestDatabaseConnectionString" value="server=(localdb)\Projectsv13;initial catalog=myDB;integrated security=sspi" /> 
+        <Parameter name="IncludePath" value="myDB.UnitTest" /> 
+    </TestRunParameters> 
+</RunSettings>
