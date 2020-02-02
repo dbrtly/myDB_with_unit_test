@@ -62,6 +62,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="tSQLt\" />
+    <Folder Include="tSQLt\Assemblies" />
     <Folder Include="tSQLt\Tables\" />
     <Folder Include="tSQLt\Views\" />
     <Folder Include="tSQLt\Functions\" />
@@ -69,8 +70,7 @@
     <Folder Include="tSQLt\User Defined Types\" />
     <Folder Include="Security\" />
     <Folder Include="dbo" />
-    <Folder Include="Framework" />
-    <Folder Include="Framework\Assemblies" />
+    
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\AzureV12\SqlSchemas\master.dacpac">
@@ -239,15 +239,15 @@
   <ItemGroup>
     <None Include="Debug.publish.xml" />
     <None Include=".RunSettings" />
-    <None Include="Framework\Assemblies\tSQLtCLR.dll" />
+    <None Include="tSQLt\Assemblies\tSQLtCLR.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="tSQLtCLR">
-      <HintPath>Assemblies\tSQLtCLR.dll</HintPath>
+      <HintPath>tSQLt\Assemblies\tSQLtCLR.dll</HintPath>
       <SqlAssemblyName>tSQLtCLR</SqlAssemblyName>
       <IsModelAware>True</IsModelAware>
       <GenerateSqlClrDdl>False</GenerateSqlClrDdl>
-      <SqlOwnerName>dbo</SqlOwnerName>
+      <SqlOwnerName>tSQLt</SqlOwnerName>
       <SqlPermissionSet>SAFE</SqlPermissionSet>
     </Reference>
   </ItemGroup>
