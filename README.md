@@ -9,6 +9,7 @@ Install the following extensions:
 - tSQLt Test Adapter for Visual Studio 2019
 
 The database project consists of one sample function: dbo.CalculateTaxAmount.
+
 The test project consists of a database references (including the tSQLt framework) and one sample test class with one sample test: TestUClass.[test tax amount]
 
 ## Config changes required to reuse this solution for a different database projects:
@@ -35,7 +36,8 @@ Using a text editor, replace every instance of the string "myDB" with the new da
 Rename the project directories
 
 Press 5 to validate build and debug on LocalDB.
-Then delete the files "Calculate Tax Amount" and the directory TestUClass\*.
+
+Then delete the file "Calculate Tax Amount" from the database project and the directory TestUClass\* from the test project.
 
 Ready to code!
 
