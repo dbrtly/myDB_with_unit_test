@@ -11,7 +11,7 @@ Install the following extensions:
 The database project consists of one sample function: dbo.CalculateTaxAmount.
 The test project consists of a database references (including the tSQLt framework) and one sample test class with one sample test: TestUClass.[test tax amount]
 
-##Config changes required to reuse this solution for a different database projects:
+## Config changes required to reuse this solution for a different database projects:
 
 Open the solution directory and delete the following files (if they exist):
 - myDB\myDB.jfm
