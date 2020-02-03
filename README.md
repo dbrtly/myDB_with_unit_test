@@ -34,7 +34,7 @@ Using a text editor, replace every instance of the string "myDB" with the new da
 
 Rename the project directories
 
-Press 5 to validate build and debug on LocalDB.
+Press F5 to validate build and debug on LocalDB.
 
 Then delete the file "Calculate Tax Amount" from the database project and the directory TestUClass\* from the test project.
 
