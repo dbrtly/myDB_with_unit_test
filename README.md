@@ -27,7 +27,6 @@ Open the solution directory and delete the following files (if they exist):
 Using a text editor, replace every instance of the string "myDB" with the new database name.
 - myDB.sln (6 instances of the string)
 - myDB\myDB.sqlproj (5 instances of the string)
-- myDB\myDB.sqlproj.user (2 instances of the string)
 - myDB.UnitTest\myDB.UnitTest.sqlproj (5 instances of the string)
 - myDB.UnitTest\myDB.UnitTest.sqlproj.user (2 instances of the string)
 - myDB.UnitTest\DebugLocalDB.publish.xml (4 instances of the string)
