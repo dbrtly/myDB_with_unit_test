@@ -3,17 +3,45 @@
 ##Get Started:
 
 Install Visual Studio 2019 with the following components:
-
+    
 
 Install the following extensions:
     tSQLt Test Adapter for Visual Studio 2019
-
 
 The database consists of one function: 
     dbo.CalculateTaxAmount
 
 The test project consists of the tSQLt framework and one test: 
     TestUClass.[test tax amount]
+
+
+Config changes required to reuse this solution for a different database projects:
+
+Open the solution directory and delete the following files (if they exist):
+    * \myDB\myDB.jfm
+    * \myDB\myDB.dbmdl
+    * \myDB\bin\*
+    * \myDB\obj\*
+    * \myDB.UnitTest\myDB.UnitTest.jfm
+    * \myDB.UnitTest\myDB.UnitTest.dbmdl
+    * \myDB.UnitTest\bin\*
+    * \myDB.UnitTest\obj\*
+
+Using a text editor, replace every instance of the string "myDB" with the new database name.
+    * myDB.sln (6 instances of the string)
+    * \myDB\myDB.sqlproj (5 instances of the string)
+    * \myDB\myDB.sqlproj.user (2 instances of the string)
+    * \myDB.UnitTest\myDB.UnitTest.sqlproj (5 instances of the string)
+    * \myDB.UnitTest\myDB.UnitTest.sqlproj.user (2 instances of the string)
+    * \myDB.UnitTest\DebugLocalDB.publish.xml (4 instances of the string)
+    * \myDB.UnitTest\UnitTest.RunSettings (2 instances of the string)
+
+Rename the project directories
+
+Press 5 to validate build and debug on LocalDB.
+Then delete the files "Calculate Tax Amount" and the directory TestUClass\*.
+
+
 
 References:
 

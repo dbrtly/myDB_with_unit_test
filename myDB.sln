@@ -7,6 +7,11 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "myDB", "myDB\myDB.sqlproj",
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "myDB.UnitTest", "myDB.UnitTest\myDB.UnitTest.sqlproj", "{19B4BBD9-7AFB-4280-8E08-AAB3DFBBD930}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1099668B-EBBD-4329-A244-3895FA98285D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
